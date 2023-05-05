@@ -878,24 +878,7 @@
     transform: rotateZ(360deg);
   }
 }
-@font-face {
-  font-family: kk-icons;
-  src: url(./fonts/kk-icons/kk-icons.eot?t=1680776036230);
-  src: url(./fonts/kk-icons/kk-icons.eot?t=1680776036230#iefix)
-      format("embedded-opentype"),
-    url(./fonts/kk-icons/kk-icons.woff2?t=1680776036230) format("woff2"),
-    url(./fonts/kk-icons/kk-icons.woff?t=1680776036230) format("woff"),
-    url(./fonts/kk-icons/kk-icons.ttf?t=1680776036230) format("truetype"),
-    url(./fonts/kk-icons/kk-icons.svg?t=1680776036230#kk-icons) format("svg");
-}
-[class*=" kk-"],
-[class^="kk-"] {
-  font-family: kk-icons !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 .kk-absolute_stroked:before {
   content: "\ea01";
 }
